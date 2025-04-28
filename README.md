@@ -14,3 +14,6 @@ Fitur tambahan termasuk ekspor dan impor data kegiatan.
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
+
+preview :
+https://amalfillah02.github.io/app-kegiatan/
