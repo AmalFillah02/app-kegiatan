@@ -200,7 +200,7 @@ class UIManager {
 
       const handleUpdate = () => {
         this.addBtn.innerHTML = "<i class='bx bx-plus bx-sm'></i>";
-        this.showAlertMessage("Todo updated successfully", "success");
+        this.showAlertMessage("Kegiatan berhasil diubah", "success");
         this.showAllTodos();
         this.addBtn.removeEventListener("click", handleUpdate);
       };
@@ -217,7 +217,7 @@ class UIManager {
 
   handleDeleteTodo(id) {
     this.todoManager.deleteTodo(id);
-    this.showAlertMessage("Todo deleted successfully", "success");
+    this.showAlertMessage("Kegiatan berhasil dihapus", "success");
     this.showAllTodos();
   }
 
